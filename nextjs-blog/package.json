@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node --require ./tracer.js ./node_modules/.bin/next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dd-trace": "^4.2.0",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
